@@ -23,8 +23,8 @@
     <remove-project path="android" name="LineageOS/android" />
     <project path="android" name="androidnpsg" remote="npsgrom" />
     <!-- The orchid project -->
-    <project path="frameworks/base" name="npsg_frameworks_base" remote="npsgrom" />
-    <project path="packages/apps/Extra" name="npsg_packages_apps_Extra" remote="npsgrom" />
+    <project path="frameworks/base" name="npsg_frameworks_base" remote="npsgrom" revision="npsg" />
+    <project path="packages/apps/Extra" name="npsg_packages_apps_Extra" remote="npsgrom" revision="npsg" />
     <project path="packages/apps/Settings" name="npsg_packages_apps_Settings" remote="npsgrom" revision="npsg" />
     <project path="vendor/oplauncher" name="npsg_vendor_oplauncher" remote="npsgrom" revision="npsg" />
     <project path="vendor/aeonax/ANXCamera" name="npsg_vendor_aeonax_ANXCamera" remote="npsgrom" revision="npsg" />	
